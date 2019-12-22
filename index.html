@@ -9,37 +9,50 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link
-    href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Quicksand:400,500,700&display=swap&subset=vietnamese"
-    rel="stylesheet">
-
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Quicksand:400,500,700&display=swap&subset=vietnamese">
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css">
 
   <title>Quang Hợi - Chuyên tranh đá, tiểu cảnh, non bộ, tranh 3d</title>
 </head>
 
 <body>
-  <h1>Quang Hợi</h1>
-  <h2>Chuyên tranh đá, tiểu cảnh, non bộ, tranh 3d</h2>
+  <div class="header">
+    <div class="custom-row">
+      <h1 class="title">Quang Hợi</h1>
+      <h2 class="sub-title">Tranh đá, tiểu cảnh, non bộ, tranh 3d.</h2>
+      <ul>
+        <li>Đam mê nghệ thuật.</li>
+        <li>Đại học mĩ thuật.</li>
+        <li>20 năm trong nghề.</li>
+      </ul>
+    </div>
+  </div>
 
-  <button id="btn">Open PhotoSwipe</button>
+  <div class="contact">
+    <div class="custom-row">
+      <span>Liên hệ: <a href="">0963 697 819</a></span>
+      <a class="address" href="">Km số 3, Vĩnh Yên, Vĩnh Phúc</a>
+    </div>
+  </div>
 
   <!-- Root element of PhotoSwipe. Must have class pswp. -->
   <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
     <!-- Background of PhotoSwipe. 
-           It's a separate element, as animating opacity is faster than rgba(). -->
+         It's a separate element, as animating opacity is faster than rgba(). -->
     <div class="pswp__bg"></div>
 
     <!-- Slides wrapper with overflow:hidden. -->
     <div class="pswp__scroll-wrap">
 
       <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+      <!-- don't modify these 3 pswp__item elements, data is added later on. -->
       <div class="pswp__container">
-        <!-- don't modify these 3 pswp__item elements, data is added later on -->
         <div class="pswp__item"></div>
         <div class="pswp__item"></div>
         <div class="pswp__item"></div>
@@ -77,10 +90,10 @@
           <div class="pswp__share-tooltip"></div>
         </div>
 
-        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        <button class="pswp__button pswp__button--arcustom-row--left" title="Previous (arcustom-row left)">
         </button>
 
-        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        <button class="pswp__button pswp__button--arcustom-row--right" title="Next (arcustom-row right)">
         </button>
 
         <div class="pswp__caption">
