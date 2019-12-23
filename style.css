@@ -33,7 +33,7 @@ body {
 }
 
 .contact {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   padding: 30px 15px;
   text-align: center;
   color: #666666;
@@ -43,9 +43,13 @@ body {
   display: block;
 }
 
-.list-item {
+.section .section-title {
   font-size: 32px;
   font-weight: 600;
   margin-top: 60px;
+}
+
+.section .description {
+  color: #666666;
 }
 /*# sourceMappingURL=style.css.map */
