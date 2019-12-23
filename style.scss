@@ -19,12 +19,16 @@ body {
   .title {
     font-size: 40px;
     font-weight: bold;
+    margin-bottom: 30px;
   }
   .sub-title,
-  li {
+  ul {
     color: #666666;
     font-size: 19px;
     list-style-type: circle;
+  }
+  ul {
+      padding-left: 35px;
   }
   background-color: #eeeeee;
 }
@@ -33,7 +37,7 @@ body {
   background-color: #f7f7f7;
   padding: 30px 15px;
   text-align: center;
-  color: #666666;
+  color: #666666;  
   .address {
     display: block;
   }
@@ -46,5 +50,9 @@ body {
   }
   .description {
       color: #666666;
+  }
+  img {
+      width: 100%;
+      object-fit: cover;      
   }
 }
